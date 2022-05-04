@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap');
+body {
+    direction: rtl;
+    font-family: "Tajawal",sans-serif ;
+}
+:root {
+    --main-color:#ffc107;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+section {
+    padding: 100px 0;
+}
+.navbar {
+    font-size: 18px;
+    box-shadow: 1px 2px 5px #ebebeb;
+}
+.section-home {
+    height: 600px;
+    background-size: cover;
+    background-image: url("../img/slide-bg-1.jpg");
+    background-position: center center;
+    padding: 1px;
+}
+.section-title {
+    position: relative;
+    display: inline-block;
+}
+.section-title::after {
+    content: '';
+    display: block;
+    position:absolute;
+    bottom: -15px;
+    width: 70px;
+    height: 5px;
+    background-color: var(--main-color);
+}
+.home-item {
+    width: 50% ;
+    margin-right: auto;
+    margin-top: 15%;
+}
+@media (max-width: 763px) {
+    .section-home {
+        height: 500px;
+    }
+    .home-item {
+        width: 100%;
+    }
+
+}
+.home-item h2 {
+    color: #fff;
+    font-size: 45px;
+}
+.home-item p {
+    color: #fff;
+    font-size: 25px;
+}
+.about-item p {
+    margin: 60px 0;
+    line-height: 1.8;
+    font-size: 20px;
+}
+.about-item button {
+    margin-bottom: 18px ;
+}
+.card img {
+    height: 182px;
+    margin-bottom: 20px;
+    background-color: #ddd;
+    background-size: cover;
+    background-position: center center;
+}
+.card h5 {
+    font-size: 23px;
+}
+.section-img h2 {
+    font-size: calc(1.325rem + 0.9vw);
+}
+.section-img .img-left,
+footer .imge-left {
+    display: flex;
+    align-items: center;
+}
+.section-img .img-left img,
+footer .imge-left img{
+    margin-left: 15px;
+    margin-right: 0;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.section-img .img-left:hover,
+footer .imge-left:hover img {
+    opacity: 0.7;
+}
+.section-img .img-left p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+/* section img */
+.choos {
+    margin-top: 30px;
+}
+.section-choos img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.section-choos h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.section-choos h3 {
+    font-size: calc(1rem + 0.9vw);
+}
+.section-choos .single-icon i {
+    font-size: 60px;
+    position: absolute;
+    margin: 0;
+}
+.section-choos .posetion {
+    margin-right: 70px;
+}
+/* choos  */
+.section-degree h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.section-degree img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.section-degree h4 {
+    font-weight: 600;
+}
+.section-degree .poss {
+    margin-right: 130px;
+}
+/* degree */
+.section-scrip {
+    height: 500px;
+    background-image: url(../img/subscribe-our-newsletter-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.section-scrip .scrip-item {
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+    color: #fff;
+    line-height: 2.8;
+}
+.section-scrip .inp {
+    width: 80%;
+    margin: 0 auto;
+}
+@media (max-width: 763px) {
+    .section-scrip .inp {
+        width: 100%;
+    }
+
+}
+.section-scrip .scrip-item h2 {
+    font-size: 40px;
+}
+/* scrip  */
+.s-card h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+/* news */
+footer{
+    background: #071c33 ;
+    color: #fff;
+    height: 500px;
+}
+footer .cover {
+    background: #fff ;
+    color: #222;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 0 10px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+footer .po {
+    margin-top: 70px;
+}
+footer li {
+    margin: 8px 0;
+}
+footer li a:hover {
+    opacity: 0.8;
+}
+footer .gruop-link a{
+    color: #fff;
+    margin: 0 13px;
+}
+footer .gruop-link a:hover {
+    opacity: 0.7;
+}
+/* footer  */
