@@ -17,6 +17,34 @@ section {
     font-size: 18px;
     box-shadow: 1px 2px 5px #ebebeb;
 }
+.navbar .dropdown .form-control {
+    width: 400px;
+}
+.navbar .dropdown .btn {
+    position: absolute;
+    margin-top: -9px;
+}
+@media (max-width: 992px) {
+    .navbar .dropdown .form-control {
+        width: 100%;
+    }
+    .navbar .dropdown .btn {
+        position: relative;
+    }
+
+}
+.navbar .collapse .nav-item .nav-link {
+    font-weight: 700;
+    font-size: 14px;
+    color: #222;
+    text-transform: uppercase;
+}
+.navbar .collapse .nav-item .nav-link .active {
+    color: var(--main-color);
+}
+.navbar .collapse .nav-item .nav-link:hover {
+    color: var(--main-color);
+}
 .section-home {
     height: 600px;
     background-size: cover;
@@ -42,7 +70,7 @@ section {
     margin-right: auto;
     margin-top: 15%;
 }
-@media (max-width: 763px) {
+@media (max-width: 992px) {
     .section-home {
         height: 500px;
     }
@@ -51,13 +79,22 @@ section {
     }
 
 }
-.home-item h2 {
+.home-item h1 {
     color: #fff;
+    font-weight: 700;
     font-size: 45px;
+    text-shadow: 0 0 7px #000000;
 }
 .home-item p {
     color: #fff;
     font-size: 25px;
+    font-weight: 400;
+    text-shadow: 0 0 7px #000000;
+}
+.home-item button {
+    font-weight: 700;
+    font-size: 14px;
+    color: #222;
 }
 .about-item p {
     margin: 60px 0;
@@ -159,6 +196,10 @@ footer .imge-left:hover img {
     width: 80%;
     margin: 0 auto;
 }
+.section-scrip input,
+.section-scrip button {
+    border-radius: unset;
+}
 @media (max-width: 763px) {
     .section-scrip .inp {
         width: 100%;
@@ -204,5 +245,9 @@ footer .gruop-link a{
 }
 footer .gruop-link a:hover {
     opacity: 0.7;
+}
+footer .input-group input,
+footer .input-group button {
+    border-radius: unset;
 }
 /* footer  */
