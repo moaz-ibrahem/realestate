@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap');
 body {
+    padding-top: 90px;
     direction: rtl;
     font-family: "Tajawal",sans-serif ;
 }
