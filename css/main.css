@@ -25,15 +25,7 @@ section {
     position: absolute;
     margin-top: -9px;
 }
-@media (max-width: 992px) {
-    .navbar .dropdown .form-control {
-        width: 100%;
-    }
-    .navbar .dropdown .btn {
-        position: relative;
-    }
 
-}
 .navbar .collapse .nav-item .nav-link {
     font-weight: 700;
     font-size: 14px;
@@ -71,15 +63,7 @@ section {
     margin-right: auto;
     margin-top: 15%;
 }
-@media (max-width: 992px) {
-    .section-home {
-        height: 500px;
-    }
-    .home-item {
-        width: 100%;
-    }
 
-}
 .home-item h1 {
     color: #fff;
     font-weight: 700;
@@ -201,12 +185,7 @@ footer .imge-left:hover img {
 .section-scrip button {
     border-radius: unset;
 }
-@media (max-width: 763px) {
-    .section-scrip .inp {
-        width: 100%;
-    }
 
-}
 .section-scrip .scrip-item h2 {
     font-size: 40px;
 }
@@ -219,7 +198,7 @@ footer .imge-left:hover img {
 footer{
     background: #071c33 ;
     color: #fff;
-    height: 500px;
+    height: 185vh;
 }
 footer .cover {
     background: #fff ;
@@ -252,3 +231,48 @@ footer .input-group button {
     border-radius: unset;
 }
 /* footer  */
+
+
+
+
+
+
+
+
+/* media qeyre */
+
+@media (max-width: 992px) {
+    .section-home {
+        height: 500px;
+    }
+    .home-item {
+        width: 100%;
+    }
+
+}
+@media (max-width: 992px) {
+    .navbar .dropdown .form-control {
+        width: 100%;
+    }
+    .navbar .dropdown .btn {
+        position: relative;
+    }
+
+}
+@media (max-width: 767px) {
+    .section-scrip .inp {
+        width: 100%;
+    }
+
+    footer .btn {
+        width: 30%;
+        margin-bottom: 10px;
+    }
+    .input-group > .form-control, .input-group > .form-select {
+        height: 39px;
+        width: 70%;
+    }
+    footer .gruop-link a {
+        padding: 0 12px;
+    }
+}
