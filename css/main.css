@@ -198,7 +198,7 @@ footer .imge-left:hover img {
 footer{
     background: #071c33 ;
     color: #fff;
-    height: 185vh;
+    height: 55vh;
 }
 footer .cover {
     background: #fff ;
@@ -263,7 +263,9 @@ footer .input-group button {
     .section-scrip .inp {
         width: 100%;
     }
-
+    footer {
+        height: 170vh;
+    }
     footer .btn {
         width: 30%;
         margin-bottom: 10px;
