@@ -14,6 +14,7 @@ ul {
 section {
     padding: 100px 0;
 }
+/* start navbar  */
 .navbar {
     font-size: 18px;
     box-shadow: 1px 2px 5px #ebebeb;
@@ -38,6 +39,7 @@ section {
 .navbar .collapse .nav-item .nav-link:hover {
     color: var(--main-color);
 }
+/* start home  */
 .section-home {
     height: 600px;
     background-size: cover;
@@ -199,6 +201,7 @@ footer{
     background: #071c33 ;
     color: #fff;
     height: 55vh;
+
 }
 footer .cover {
     background: #fff ;
@@ -265,6 +268,7 @@ footer .input-group button {
     }
     footer {
         height: 170vh;
+        text-align: center;
     }
     footer .btn {
         width: 30%;
